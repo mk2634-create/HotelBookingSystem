@@ -60,7 +60,6 @@ public class UseCase5BookingRequestQueue {
         bookingQueue.addRequest(new Reservation("Bob", "Double Room"));
         bookingQueue.addRequest(new Reservation("Charlie", "Suite Room"));
 
-        // Display queue
         bookingQueue.displayQueue();
     }
 }
